@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.date-now {
+    position: absolute;
+    transform: translate(170%, -30%);
+    color: white;
+    font-size: 10vw;
+}
+
+.container-background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+}
+
+.container-background>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.search-bar {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+    width: 50%;
+    height: 10%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(27, 26, 26, 0.829);
+}
+
+.search-bar>input {
+    width: 80%;
+    height: 80%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+}
