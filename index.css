@@ -6,7 +6,8 @@ body {
 
 .date-now {
     position: absolute;
-    transform: translate(100%, -30%);
+    transform: translate(-50%, -30%);
+    left: 50%;
     color: white;
     font-size: 10vw;
 }
