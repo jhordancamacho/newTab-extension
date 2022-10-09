@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>New Tab</title>
+    <link rel="icon" href="./icons/icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -14,9 +15,13 @@
         <div class="date-now">
             <p id="date"></p>
         </div>
-        <img src="./fondos/Black-Luffy-Wallpaper-HD.jpg" alt="fondo">
+        <img id="imagen-fondo" src="./fondos/Black-Luffy-Wallpaper-HD.jpg" alt="fondo">
         <div class="search-bar">
             <input type="text" id="search" placeholder="">
+        </div>
+        <div class="container-setting">
+            <img src="./icons/settings-icon.svg" alt="">
+            <input id="upload-image" type="file" accept="image/*">
         </div>
     </div>
     <script src="index.js"></script>

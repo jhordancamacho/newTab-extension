@@ -54,3 +54,14 @@ body {
     font-weight: 600;
     text-align: center;
 }
+
+.container-setting {
+    width: 33px;
+    position: absolute;
+    transform: translate(94vw, 90vh);
+    cursor: pointer;
+}
+
+.container-setting>input {
+    display: none;
+}
