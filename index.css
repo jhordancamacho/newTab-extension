@@ -10,6 +10,7 @@ body {
     left: 50%;
     color: white;
     font-size: 10vw;
+    -webkit-text-stroke: 5px black;
 }
 
 .container-background {
