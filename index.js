@@ -33,3 +33,11 @@ function cambiarImagen(e) {
     reader.readAsDataURL(srcImagenNueva);
 }
 document.getElementById("upload-image").addEventListener("input", (e) => cambiarImagen(e))
+
+//seach on google
+const inputSearch = document.getElementById("search");
+inputSearch.onkeydown = (e) => {
+    if (e.key == "Enter") {
+        window.open(`https://www.google.com/search?q=${inputSearch.value}&sourceid=chrome&ie=UTF-8`);
+    }
+}
