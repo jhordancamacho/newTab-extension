@@ -38,6 +38,6 @@ document.getElementById("upload-image").addEventListener("input", (e) => cambiar
 const inputSearch = document.getElementById("search");
 inputSearch.onkeydown = (e) => {
     if (e.key == "Enter") {
-        window.open(`https://www.google.com/search?q=${inputSearch.value}&sourceid=chrome&ie=UTF-8`);
+        location.href = (`https://www.google.com/search?q=${inputSearch.value}&sourceid=chrome&ie=UTF-8`);
     }
 }
